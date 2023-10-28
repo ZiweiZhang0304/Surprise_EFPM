@@ -1,6 +1,6 @@
-# Surperise_CFPM
+# Surprise_CFPM
 
-# Code for running the Surperise CFPM Pipeline
+# Code for running the Surprise CFPM Pipeline
 
 Code associated with building co-fluctuation based predictive models. Helpful functions are in /CFPM/func
 
