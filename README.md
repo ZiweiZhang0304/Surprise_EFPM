@@ -1,8 +1,8 @@
 # Surprise_EFPM
 
-# Code for running the Surprise EFPM Pipeline
+# Code for running the EFPM Pipeline
 
-Code associated with building edge-fluctuation based predictive models. Helpful functions are in /EFPM/func
+Code associated with building the edge-fluctuation based predictive models (EFPM). Helpful functions are in /EFPM/func
 
 Main script containing the code for building EFPM and obtaining EFPM strength in external data is /EFPM/EFPM.m. This script performs the following steps:
 
