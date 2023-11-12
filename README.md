@@ -1,11 +1,12 @@
-# Surprise_EFPM
+# Surprise EFPM
 
 # Code for running the EFPM Pipeline
+
+Zhang, Z., Rosenberg, M. D. (in prep). Brain network dynamics predict moments of surprise across contexts.
 
 Code associated with building the edge-fluctuation based predictive models (EFPM). Helpful functions are in /EFPM/func
 
 Main script containing the code for building EFPM and obtaining EFPM strength in external data is /EFPM/EFPM.m. This script performs the following steps:
-
 1. Load example edge time series and behavioral data.
 2. Generate correlation matrix between behavioral variable of interest and edge time series.
 3. Perform edge selection based on correlation matrix using cross validation.
