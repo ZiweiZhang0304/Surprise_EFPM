@@ -1,4 +1,4 @@
-%% CFPM pipeline
+%% EFPM pipeline
 
 % clean up workspace
 clearvars; close all; clc
@@ -36,8 +36,8 @@ r_observed_fisherz = atanh(r_matrix);
 %% Internal training (cross validation for edge feature selection)
 [r_pos,    ... % get internal cross-validation Rho values for positive edges
  r_neg,    ... % get internal cross-validation Rho values for negative edges
- mask_pos, ... % get the positive CFPM mask
- mask_neg, ... % get the negative CFPM mask
+ mask_pos, ... % get the positive EFPM mask
+ mask_neg, ... % get the negative EFPM mask
  corr_data_pos, ...
  behav_var_sub ...
 ] = internal_train(example_behav, example_ets, r_observed_fisherz, subj_num, 0);
@@ -70,12 +70,12 @@ At = mask_neg.';
 m  = triu(true(size(At)),1);
 neg_flat  = At(m).';
 %%
-% Apply and obtain time resolved edge score in the CFPM [avg(high) - avg(low)]
-[CFPM_score, CFPM_score_pos, CFPM_score_neg] = get_CFPM_score(example_ets_external, subj_num_external, pos_flat, neg_flat);
-% writetable(array2table(CFPM_score),'./output/CFPM_score.csv');
+% Apply and obtain time resolved edge score in the EFPM [avg(high) - avg(low)]
+[EFPM_score, EFPM_score_pos, EFPM_score_neg] = get_EFPM_score(example_ets_external, subj_num_external, pos_flat, neg_flat);
+% writetable(array2table(EFPM_score),'./output/EFPM_score.csv');
 
-% Calculate simple correlation between brain CFPM score and behavior or
-% build regression models using brain CFPM score to predict behavior
+% Calculate simple correlation between brain EFPM score and behavior or
+% build regression models using brain EFPM score to predict behavior
 
 
 
