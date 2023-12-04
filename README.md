@@ -2,7 +2,7 @@
 
 # Code for running the EFPM Pipeline
 
-Zhang, Z., Rosenberg, M. D. (in prep). Brain network dynamics predict moments of surprise across contexts.
+Zhang, Z., & Rosenberg, M. D. (2023). Brain network dynamics predict moments of surprise across contexts (p. 2023.12.01.569271). bioRxiv. https://doi.org/10.1101/2023.12.01.569271
 
 Code associated with building the edge-fluctuation based predictive models (EFPM). Helpful functions are in /EFPM/func
 
