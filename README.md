@@ -3,7 +3,7 @@ Zhang, Z., & Rosenberg, M. D. (2023). Brain network dynamics predict moments of 
 
 ## Part I: Surprise edge-fluctuation based predictive models (EFPM) masks
 The mask for high and low surprise network can be found under EFPM/output/masks/surprise_EFPM
-You can apply them to your own brain data with the function 
+You can apply them to your own brain data and calculate the strength of this model with the function under EFPM/func/get_EFPM_score.m
 
 ## Part II: Code for running the EFPM pipeline
 Helpful functions are in /EFPM/func
