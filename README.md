@@ -5,8 +5,9 @@ Zhang, Z., & Rosenberg, M. D. (2023). Brain network dynamics predict moments of 
 The mask for high and low surprise network can be found under EFPM/output/masks/surprise_EFPM <br> You can apply them to your own brain data and calculate the strength of this model with the function under EFPM/func/get_EFPM_score.m
 
 ## Part II: Code for running the EFPM pipeline
-Helpful functions are in /EFPM/func
-Main script containing the code for building EFPM and obtaining EFPM strength in external data is /EFPM/EFPM.m. This script performs the following steps:
+Main script containing the code for building EFPM and obtaining EFPM strength in external data is /EFPM/EFPM.m. <br>
+Helpful functions are in /EFPM/func <br>
+This script performs the following steps:
 1. Load example edge time series and behavioral data.
 2. Generate correlation matrix between behavioral variable of interest and edge time series.
 3. Perform edge selection based on correlation matrix using cross validation.
