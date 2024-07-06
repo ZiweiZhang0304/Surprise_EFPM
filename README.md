@@ -15,3 +15,6 @@ This script performs the following steps:
 4. Obtain selected edges for the EFPM as positive and negative masks.
 5. Apply EFPM masks to external dataset and calculate EFPM strength time series.
    - To test external generalizability of the EFPM, you can then select a statistical method to assess the relationship between the EFPM strength time series and the time series of the behavioral variable of interest for your own research question.
+  
+
+The scripts were written, run, and tested in matlab 2021b. No non-standard hardware is required. Normal install
