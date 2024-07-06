@@ -17,4 +17,4 @@ This script performs the following steps:
    - To test external generalizability of the EFPM, you can then select a statistical method to assess the relationship between the EFPM strength time series and the time series of the behavioral variable of interest for your own research question.
   
 
-All scripts were written, run, and tested in matlab 2021b. No non-standard hardware is required. Normal install
+All scripts were written, run, and tested in matlab 2021b. No non-standard hardware is required. Typical install time will take less than a minute. Expected run time for demo takes about 10 mins.
